@@ -1,20 +1,21 @@
-# Pipelined-RISC-V-CPU
+# RISC-V Pipeline Projects
+
 This repository contains Verilog projects that progressively build a 5-stage RISC-V CPU.  
 Each section is in its own branch to show step-by-step development.
 
 ## Branches
 
-- **Verilog-Basics** → `Labk1.v … Labk9.v`  
+- **Verilog-Basics** → `V-Basics1.v … V-Basics9.v`  
   Basic Verilog practice and a 1-bit full adder with testbenches.  
 
-- **Datapath-Components** → `cpu.v`, `LabL1.v … LabL11.v`, `yAdder*`, `yMux*`, `yAlu.v`, `yArith.v`  
+- **Datapath-Components** → `CPU.v`, `Components1.v … Components11.v`, `YAdder*`, `YMux*`, `YAlu.v`, `YArith.v`  
   Datapath components: parameterized muxes, 32-bit adders, and a multi-op ALU.  
 
-- **Pipeline-Stages** → `LabM1.v … LabM10.v`  
+- **Pipeline-Stages** → `Stages1.v … Stages10.v`  
   Pipeline stages (IF, ID, EX, DM, WB), register file, memory, and branch/jump logic.  
 
-- **Cpu-Integration** → `LabN1.v … LabN4.v` (+ final helpers)  
-  Control signals, PC selection, and `yChip` integration with program flow.  
+- **Cpu-Integration** → `Integration1.v … Integration4.v` (+ final helpers)  
+  Control signals, PC selection, and `YChip` integration with program flow.  
 
 ## How to Explore
 1. Open the **branch dropdown** (next to “main”).  
