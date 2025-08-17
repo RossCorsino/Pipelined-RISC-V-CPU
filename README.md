@@ -14,9 +14,9 @@ This repository contains Verilog projects that progressively build a 5-stage RIS
   Pipeline stages (IF, ID, EX, DM, WB), register file, memory, and branch/jump logic.  
 
 - **Cpu-Integration** → `Integration1.v … Integration4.v` (+ final helpers)  
-  Control signals, PC selection, and `YChip` integration with program flow.  
+  Control signals, PC selection, and `YChip` (Located in CPU) integration with program flow.  
 
 ## How to Explore
-1. Open the **branch dropdown** (next to “main”).  
+1. Open the **branch dropdown**.  
 2. Select the branch you want.  
 3. Browse the Verilog modules and testbenches.
