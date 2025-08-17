@@ -1,6 +1,6 @@
 # Pipelined-RISC-V-CPU
 This repository contains Verilog projects that progressively build a 5-stage RISC-V CPU.  
-Each lab is in its own branch to show step-by-step development.
+Each section is in its own branch to show step-by-step development.
 
 ## Branches
 
