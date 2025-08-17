@@ -14,7 +14,7 @@ Each lab is in its own branch to show step-by-step development.
   Pipeline stages (IF, ID, EX, DM, WB), register file, memory, and branch/jump logic.  
 
 - **Cpu-Integration** → `LabN1.v … LabN4.v` (+ final helpers)  
-  Control signals, PC selection, and top-level `yChip` integration with program flow.  
+  Control signals, PC selection, and `yChip` integration with program flow.  
 
 ## How to Explore
 1. Open the **branch dropdown** (next to “main”).  
